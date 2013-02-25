@@ -12,8 +12,14 @@ require 'spec_helper'
 
 			it "Should have title with content 'Ruby on Rails Tutorial Sample App | Home'" do
 				visit '/static_pages/home'
-				page.should have_selector("title", text: "#{base_title} | Home")
+				page.should have_selector('title',
+                        text: "Ruby on Rails Tutorial Sample App")
 			end
+
+			it "should not have a custom page title" do
+      	visit '/static_pages/home'
+      	page.should_not have_selector('title', text: '| Home')
+    	end
 		end
 
 		describe "Help Page" do
@@ -43,7 +49,7 @@ require 'spec_helper'
 		describe "Contact Page" do
 			it "Should have h1 and content 'Contact Us'" do
 				visit '/static_pages/contact'
-				page.should have_selector("h1", text: "Contact Us")
+				page.should have_selector("h1", text: "Contact")
 			end
 
 			it "Should have title with content 'Ruby on Rails Tutorial Sample App | Contact'" do

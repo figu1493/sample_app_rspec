@@ -8,6 +8,16 @@
       ],
       "/Users/johnfigueiredo/rails_projects/sample_app_rspec/app/helpers/application_helper.rb": [
         1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
         null
       ],
       "/Users/johnfigueiredo/rails_projects/sample_app_rspec/app/helpers/static_pages_helper.rb": [
@@ -24,6 +34,6 @@
         null
       ]
     },
-    "timestamp": 1361813601
+    "timestamp": 1361817578
   }
 }
