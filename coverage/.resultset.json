@@ -11,16 +11,20 @@
         null,
         null,
         1,
-        0,
-        0,
-        0,
+        11,
+        11,
+        3,
         null,
-        0,
+        8,
         null,
         null,
         null
       ],
       "/Users/johnfigueiredo/rails_projects/sample_app_rspec/app/helpers/static_pages_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/johnfigueiredo/rails_projects/sample_app_rspec/app/helpers/users_helper.rb": [
         1,
         null
       ],
@@ -31,9 +35,21 @@
         null,
         1,
         null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/johnfigueiredo/rails_projects/sample_app_rspec/app/controllers/users_controller.rb": [
+        1,
+        1,
+        null,
         null
       ]
     },
-    "timestamp": 1361817578
+    "timestamp": 1361857331
   }
 }
