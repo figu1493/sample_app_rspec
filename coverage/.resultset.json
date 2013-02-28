@@ -48,8 +48,27 @@
         1,
         null,
         null
+      ],
+      "/Users/johnfigueiredo/rails_projects/sample_app_rspec/app/models/user.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1361857331
+    "timestamp": 1362020915
   }
 }
