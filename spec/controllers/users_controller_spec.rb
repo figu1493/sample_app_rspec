@@ -1,9 +1,10 @@
 require 'spec_helper'
 
 describe UsersController do
+	
 	describe "show method" do
 		it "Should equal id of User" do
-			@user = User.new(id: 1, name: "John Figueiredo", email: "john@test.com", password: "foobar", password_confirmation: "foobar")
+			@user = User.new(id: 1)
 		end
 	end
 
